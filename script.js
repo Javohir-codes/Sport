@@ -6,8 +6,6 @@ async function loadStandings() {
         if (!data.table) {
             throw new Error("No data found")
         }
-    
-
         console.log(data)
 
         const tableBody = document.getElementById("standingsTable_body")
