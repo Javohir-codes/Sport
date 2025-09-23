@@ -524,3 +524,54 @@ th {
     display: flex;
     justify-content: space-between;
 }
+.footer-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+    align-items: center;
+}
+.footer-h3 {
+    font-size: 60px;
+    width: 600px;
+    color: #262626;
+}
+.footer-div-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #262626;
+    width: 440px;
+    height: 58px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+.footer-button {
+    width: 74px;
+    height: 58px;
+    background-color: #262626;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.footer-button-icon {
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+.footer-input {
+    color: gray;
+    font-size: 21px;
+    border: none;
+    width: 100%;
+    height: 56px;
+}
+.footer-icons-div {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-div-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
