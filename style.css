@@ -575,3 +575,6 @@ th {
     justify-content: space-between;
     align-items: center;
 }
+.football-team-badge {
+    width: 30px;
+}

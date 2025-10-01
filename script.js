@@ -15,8 +15,8 @@ async function loadStandings() {
             let row = `
             <tr>
                 <td>${index + 1}</td>
-                <td><img src="${team.StrBadge}"></td>
-                <td>${team.StrTeam}</td>
+                <td><img src="${team.strBadge}" class="football-team-badge"></td>
+                <td>${team.strTeam}</td>
                 <td>${team.intWin}</td>
                 <td>${team.intDraw}</td>
                 <td>${team.intLoss}</td>
