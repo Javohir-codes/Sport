@@ -1,0 +1,15 @@
+@media only screen and (max-width: 426px) {
+    header, main {
+        padding: 0px 0px;
+    }
+    .header-main-div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-img {
+        display: none;
+    }
+    .section-pagination {
+        display: none;
+    }
+}
